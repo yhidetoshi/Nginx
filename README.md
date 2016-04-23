@@ -1,6 +1,6 @@
 ![Alt Text](https://github.com/yhidetoshi/Pictures/raw/master/Nginx/nginx-icon.png)
 
-### Nginxでやった事
+### Nginxでやった事/勉強メモ
 
 
 **[インストール(構築)]**
