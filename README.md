@@ -7,7 +7,7 @@
 
 |方法    |リンク         |
 |:-----------|:------------|
-|手動|インストール手動|
+|手動|https://github.com/yhidetoshi/Nginx/blob/master/README.md#nginxのインストール手動|
 |Chef|https://github.com/yhidetoshi/chef_mac/tree/master/cookbooks/nginx|
 |Fabric|https://github.com/yhidetoshi/Nginx/blob/master/install-by-fabric/nginx-install.py|
 |Docker|https://github.com/yhidetoshi/Docker#mac環境でnginxjenkinsをリバースプロキシ環境を構築する|
