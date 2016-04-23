@@ -20,27 +20,6 @@
 ```
 
 **[Reverse_Proxy / LB / SSL /Redirect等の設定例]**
-```
-upstream backend-prod 
-{ 
-    //LB Reverse_proxy
-  	server ip_address:port_num max_fails=3 fail_timeout=10s; 
-	  server ip_address:port_num max_fails=3 fail_timeout=10s; } 
-	
-	server 
-	{
-	    //SSL
-	    listen 443; 
-	    server_name ssl on;
-	    ssl_certificate /etc/nginx/conf.d/server.crt; 
-	    ssl_certificate_key /etc/nginx/conf.d/server.key;
-	}
-    
-    location / {
-       proxy_pass http://backend-jenkins;
-      break;
-    }
-    	// hogehuga 何らかの処理とか
-}
-```
+
+-> https://github.com/yhidetoshi/Nginx/tree/master/conf
 
