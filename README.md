@@ -39,3 +39,7 @@
 |nginx reload|nginxの設定を再読み込みする|
 |nginx configtest|nginxの設定ファイルの構文をチェック|
 |nginx upgrade|nginxの実行バイナリを無停止で差し替える|
+
+
+- LTSV形式でログ出力を定義できる
+- 
