@@ -1,3 +1,5 @@
+![Alt Text](https://github.com/yhidetoshi/Pictures/raw/master/Nginx/nginx-icon.png)
+
 # Nginxでやった事
 - installのFabric化
   - https://github.com/yhidetoshi/nginx/blob/master/nginx-install.py
