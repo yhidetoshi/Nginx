@@ -41,5 +41,30 @@
 |nginx upgrade|nginxの実行バイナリを無停止で差し替える|
 
 
-- LTSV形式でログ出力を定義できる
-- 
+- **バーチャルサーバ**
+-> ipアドレス、ポート、ホスト名ごとに設定でき、複数のhttpサーバを動かせる
+```
+http { 
+  server {
+    listen 80;
+    server_name www.example.com; ...
+  }
+  server {
+    listen 80;
+    server_name static.example.com; ...
+  }
+}
+```
+- **server_nameディレクティブ**
+ホスト名の一致は(完全一致 => ワイルドカード => 正規表現)の順で優先される
+```
+server_name  hoge.xyz;
+```
+
+- **rootディレクティブ**
+->サーバの公開ディレクトリを指定する
+```
+root /var/www/wordpress;
+```
+
+
